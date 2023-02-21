@@ -1,0 +1,20 @@
+#! bin/bash
+
+echo ""
+while :
+do
+echo -e "\e[1;34m------------------------------------------\e[0m"
+echo -e -n "\e[1;37mCopie la IP para continuar [\e[0m\e[1;32msi\e[0m\e[1;37m] salir [\e[0m\e[1;32mno\e[0m\e[1;37m] >\e[0m "
+read copi
+case $copi in
+si)
+#! /bin/bash
+bash fbrute.sh
+exit
+;;
+no)
+#! /bin/bash
+exit
+;;
+esac
+done
