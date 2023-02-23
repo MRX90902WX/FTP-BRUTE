@@ -27,7 +27,7 @@ sabemos que podemos tener acceso a ese protocolo
 mediante fuerza bruta con metasploit .
 
 *****
-#KALI LINUX
+#KALI LINUX:
 
 - sudo apt-get install update 
 
@@ -38,6 +38,8 @@ mediante fuerza bruta con metasploit .
 - sudo apt-get install figlet
 
 - git clone https://github.com/MRX90902WX/FTP-BRUTE
+
+- cd FTP-BRUTE 
 
 - python3 iniciar.py
 
